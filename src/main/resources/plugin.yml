@@ -1,6 +1,6 @@
 name: SynchronizedInstances
 version: '1.0-SNAPSHOT'
-main: art.gatoartstudio.synchronizedInstances.SynchronizedInstances
+main: art.gatoartstudio.synchronizedinstances.SynchronizedInstances
 api-version: '1.21'
 prefix: SynchronizedInstances
 load: STARTUP

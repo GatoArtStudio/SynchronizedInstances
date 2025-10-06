@@ -1,4 +1,4 @@
-package art.gatoartstudio.synchronizedInstances;
+package art.gatoartstudio.synchronizedinstances;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
