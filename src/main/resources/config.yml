@@ -1,0 +1,29 @@
+# MongoDB
+mongodb:
+  uri: "mongodb://usuario:password@localhost:27017"
+  database: "my_plugin"
+  collection: "players"
+
+# Save Options
+save-options:
+  # How many seconds is the information saved in the DB
+  save-interval-seconds: 60
+  # Fields to be saved in the database.
+  enabled-fields:
+    ip: false
+
+# Redis (Optional)
+redis:
+  # Enable it if you want to use Redis
+  enabled: false
+  host: "127.0.0.1"
+  port: 6379
+  # Empty = no auth
+  password: ""
+
+  # Redis Integration Toggles
+  toggles:
+    # Synchronize player data in real time
+    sync-players: true
+    # Use Pub/Sub for events between servers
+    pubsub-events: false
