@@ -12,7 +12,7 @@ import java.util.List;
 public class SubscribeListeners {
     private final static List<Listener> listeners = new ArrayList<>();
 
-    /** Register all event listeners
+    /** Register all implement listeners
      * @param plugin The main plugin instance
      */
     public static void register(JavaPlugin plugin) {
@@ -28,7 +28,7 @@ public class SubscribeListeners {
     }
 
     /**
-     * Unregister all event listeners
+     * Unregister all implement listeners
      */
     public static void unregister() {
         listeners.forEach(HandlerList::unregisterAll);
